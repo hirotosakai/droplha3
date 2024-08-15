@@ -1,0 +1,16 @@
+#!/bin/sh
+
+PATH=/usr/bin:/bin:/usr/sbin:/sbin
+export PATH
+
+echo `date`
+i=0
+while [ $i -lt 10 ] ; do
+  echo -n "."
+  i=`expr $i + 1`
+  sleep 1
+done
+echo ""
+echo `date`
+exit 0
+

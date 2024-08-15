@@ -1,0 +1,16 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = ProgressWindowController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                detailTextView = NSTextView; 
+                disclosureLabel = NSTextField; 
+                subviewTableView = NSTableView; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

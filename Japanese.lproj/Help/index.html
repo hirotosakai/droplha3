@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="content-type" content="text/html;charset=shift_jis" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta name="AppleTitle" content="DropLHa ヘルプ" />
+<meta name="AppleIcon" content="Help/icon16.png" />
+<link rel="stylesheet" href="help.css" type="text/css" />
+<title>DropLHa ヘルプ</title>
+</head>
+<body>
+<div id="index" style="height: 138px;">
+
+<div style="width: 138px; float: left;">
+<img src="icon128.png" width="128" height="128" alt="[icon]" />
+</div>
+<div style="float: left;">
+<h1>DropLHa ヘルプ</h1>
+<ul class="toc">
+<li><a href="#about">DropLHa について</a></li>
+<li><a href="#using">DropLHa の使い方</a></li>
+<li><a href="#pref">環境設定</a></li>
+<li><a href="#support">サポート</a></li>
+</ul>
+</div>
+
+</div>
+<hr />
+<div id="contents">
+
+<h2><a name="about">DropLHa について</a></h2>
+
+<p>DropLHa は簡単に LHA アーカイブを作成するアプリケーションです。LHA は日本国内の Windows PC ユーザの間で古くからよく使われていたアーカイブ形式です。</p>
+<p>DropLHa でアーカイブを作成するもっとも簡単な方法は、圧縮したいファイルやフォルダを DropLHa のアイコンにドラッグアンドドロップすることです。ドラッグされたファイルやフォルダは圧縮されて LHA アーカイブに格納されます。アーカイブはデフォルトではデスクトップに作成されます。例えば「書類」フォルダをドラッグすると、デスクトップに「書類.lzh」という名前のファイルができます。</p>
+
+<h2><a name="using">DropLHa の使い方</a></h2>
+
+<p>DropLHa のアイコンに圧縮したいファイルやフォルダをドラッグします。</p>
+<ol>
+<li>Finder でアーカイブに格納したいファイルやフォルダを選択します。</li>
+<li>それらを DropLHa のアイコンが反転するまでドラッグします。</li>
+<li>マウスのボタンを離します。DropLHa はそれらのアイテムをアーカイブに格納し、完了すると自動的に終了します。</li>
+</ol>
+
+<p>メニューからアイテムを選択してアーカイブを作成するには：</p>
+<ol>
+<li>DropLHa アイコンをダブルクリックして、DropLHa を起動します。</li>
+<li>ファイルメニューから「開く...」を選びます。</li>
+<li>ファイル選択ダイアログが表示されますのでアーカイブにしまいたいファイルを選びます。（Shift や Command キーを押しながらクリックすると複数のアイテムを選択できます）</li>
+<li>「選択」をクリックします。</li>
+</ol>
+
+<h2><a name="pref">環境設定</a></h2>
+
+<p>アーカイブの保存先や形式、DropLHa の動作などを設定することができます。</p>
+
+<h3>保存先</h3>
+
+<dl>
+<dt>デスクトップ</dt>
+<dd>デスクトップにつくられます。これはデフォルトの設定です。</dd>
+<dt>オリジナルと同じ</dt>
+<dd>圧縮しようとしたファイルと同じフォルダにつくられます。</dd>
+<dt>その都度指定</dt>
+<dd>圧縮しようとするたびにアーカイブをつくるフォルダを訊ねます。</dd>
+<dt>指定：</dt>
+<dd>ここで指定したフォルダにつくられます。</dd>
+</dl>
+
+<h3>オプション</h3>
+
+<dl>
+<dt>圧縮方式：</dt>
+<dd>LHA アーカイブの圧縮方式を指定します。デフォルトは lh5 です。<br /><strong>注意：</strong> LHA アーカイブを扱うユーティリティの中には lh6, lh7 をサポートしていないものがあります。</dd>
+<dt>ヘッダレベル：</dt>
+<dd>LHA アーカイブのヘッダレベルを指定します。デフォルトは 2 です。</dd>
+</dl>
+<dl>
+<dt>隠しファイルを含める</dt>
+<dd>このオプションが ON のとき、.DS_Store などの隠しファイルもアーカイブに含めます。通常これらのファイルは Windows では不要ですが、Mac では必要な場合があります。</dd>
+<dt>アイテムごとに別々のアーカイブを作成する</dt>
+<dd>このオプションが ON のとき、複数のファイルやフォルダをドラッグしたときにそれらを別々のアーカイブに格納します。</dd>
+<dt>ドラッグアンドドロップで起動後、自動終了しない</dt>
+<dd>このオプションが ON の場合、DropLHa はファイルをドラッグアンドドロップして起動した際、アーカイブ作成完了後に自動的に終了しなくなります。</dd>
+</dl>
+
+<h2><a name="support">サポート</a></h2>
+
+<p>ご意見、ご質問あるいはバグレポートなどありましたら、メールで下記までおしらせください：</p>
+<address>e-mail: <a href="mailto:sakai@fan.gr.jp">sakai@fan.gr.jp</a>（坂井 浩人）<br />
+Web: <a href="http://www.fan.gr.jp/~sakai/">http://www.fan.gr.jp/~sakai/</a></address>
+
+</div>
+<div id="footer">
+
+<hr />
+<p class="copyright">Copyright (C) 2001-2009 Hiroto Sakai</p>
+
+</div>
+</body>
+</html>

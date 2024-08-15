@@ -1,0 +1,17 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {cancelClicked = id; toggleAnimation = id; }; 
+            CLASS = SubviewController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                description = NSTextField; 
+                progressIndicator = NSProgressIndicator; 
+                subview = NSView; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}
